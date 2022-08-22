@@ -1,0 +1,15 @@
+{
+  "exec": "tsc && npm start || exit 1",
+  "ext": "ts",
+  "ignore": [
+    ".git",
+    "dist",
+    "migrations",
+    "node_modules",
+    "seed.ts"
+  ],
+  "verbose": true,
+  "watch": [
+    "src"
+  ]
+}
