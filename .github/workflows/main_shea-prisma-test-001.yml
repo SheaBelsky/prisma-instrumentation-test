@@ -46,6 +46,6 @@ jobs:
       uses: azure/webapps-deploy@v2
       with:
         app-name: 'shea-prisma-test-001'
-        images: 'mentra.azurecr.io/${{ secrets.AzureAppService_ContainerUsername_58e51b45f2634196bcc8262f9df93053 }}/shea_prisma_test:${{ github.sha }}'
+        images: 'mentra.azurecr.io/${{ secrets.CONTAINER_USERNAME }}/shea_prisma_test:${{ github.sha }}'
         publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_9B704A6BB3AE495381144302D03ACF1B }}
         slot-name: 'production'
