@@ -37,7 +37,6 @@ jobs:
     needs: build
     environment:
       name: 'staging'
-      # Cannot use secrets here (https://docs.github.com/en/actions/learn-github-actions/workflow-syntax-for-github-actions#jobsjob_idenvironment)
       url: 'https://shea-prisma-test-001.azurewebsites.net/'
 
     steps:
