@@ -52,5 +52,5 @@ jobs:
         with:
           app-name: 'shea-prisma-test-001'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_0F748193284449228DDFF54F9EC7D89A }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_9B704A6BB3AE495381144302D03ACF1B }}
           package: .
